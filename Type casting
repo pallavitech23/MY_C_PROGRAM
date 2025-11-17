@@ -1,0 +1,14 @@
+# include<stdio.h>
+int main(){
+    int a=7,b=2;
+    float result;
+    result=(float)a/b;
+    printf("value of a=%\n",a);
+    printf("value of b=%\n",b);
+    printf("Result after type casting=%. 2f\n", result);
+}
+
+
+value of a=%
+value of b=%
+Result after type casting=%.0 2f
