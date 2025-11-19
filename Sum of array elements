@@ -1,0 +1,10 @@
+#include<stdio.h>
+    int main(){
+        int rose[5];
+        int sum;
+        for(int i=0; i<5; i++){
+            ("enter element\n");
+            sum=sum+rose[1];
+        }
+            printf("sum element%d\n",sum);
+    }
