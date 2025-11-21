@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    int *pallavi;
+    pallavi = (int*)calloc(5,sizeof(int));
+    printf("array values after calloc:\n");
+    for (int i=0; i<5; i++) {
+        scanf("%d\n", &pallavi[i]);}
+       for (int i=0; i<5; i++)
+        printf("%d\n", &pallavi[i]);}
+    
