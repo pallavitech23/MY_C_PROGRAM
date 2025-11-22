@@ -1,0 +1,13 @@
+#include <stdio.h>
+union Data {
+    int age;
+    float marks;
+};
+int main() {
+    union Data d;
+    d.age = 18;
+    printf("age = %d\n", d.age);
+    d.marks = 89.5;
+    printf("Marks = %.2f\n", d.marks);
+    printf("age = %d\n", d.age);
+}
